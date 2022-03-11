@@ -1,1 +1,64 @@
-/* place holder */
+:root {
+  --font-family: font-family: 'Dancing Script', cursive; 'EB Garamond', serif;
+  --normal-font: 400;
+  --bold-font: 900;
+  --bg-color: #F0F7F4;
+  --primary-color: #3c493f;
+  --secondary-color: #7e8d85;
+  --accent-color: #b3bfb8;
+  --link-color: #A0BCFF;
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--link-color);
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 3.5rem;
+    background-color: var(--bg-color);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .5);
+}
+
+nav h1 {
+    color: var(--primary-color);
+    font-size: 33px;
+}
+
+nav a {
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: var(--secondary-color)
+    border-bottom: 2px solid var(--secondary-color)
+}
+
+nav ul {
+    display: flex;
+    gap: 3rem;
+}
+
+nav ul li {
+    font-weight: var(--bold-font);
+}
