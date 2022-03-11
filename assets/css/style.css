@@ -90,3 +90,34 @@ nav ul li {
     line-height: 1.5rem;
     padding: .3rem 0;
 }
+
+.more-about {
+    background-color: var(--bg-color);
+    padding: 1rem 6rem;
+}
+
+.more-about h2{
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+.more-about p {
+    line-height: 1.5rem;
+    padding: .5rem;
+}
+
+.skills {
+    margin: auto;
+    text-align: center;
+    margin-top: 2.5rem;
+    max-width: 68.75rem;
+}
+
+.skill-header {
+    margin-bottom: 1rem;;
+}
+
+.skills img {
+    width:9.5rem;
+    height: 9.5rem;
+}
