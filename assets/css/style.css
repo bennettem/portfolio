@@ -1,14 +1,13 @@
 :root {
   --font-family: 'Quicksand', sans-serif;
-  --normal-font: 400;
   --bold-font: 900;
   --bg-color: #F0F7F4;
   --primary-color: #3c493f;
-  --secondary-color: #7e8d85;
-  --accent-color: #b3bfb8;
   --link-color: #A0BCFF;
 
 }
+
+/* Nav styling */
 
 ul {
     list-style-type: none;
@@ -62,6 +61,10 @@ nav ul li {
     font-weight: var(--bold-font);
 }
 
+/* End of Nav styling */
+
+/* Hero styling */
+
 .hero {
     display: flex;
     align-items: center;
@@ -95,6 +98,9 @@ nav ul li {
     left: 32px;
     bottom: -24px;
 }
+/* hero styling stop */
+
+/* about me styling */
 .about {
     background-color: var(--bg-color);
     padding: 1em 6em;
@@ -126,6 +132,10 @@ nav ul li {
     height: 9.5em;
 }
 
+/* about my styling end */
+
+/* projects styling */
+
 .projects {
     background-color: var(--bg-color);
     padding: 32px 0;
@@ -141,7 +151,12 @@ nav ul li {
     width: 65%;
     height: 60%;
 }
-
+.project-pic:hover{
+    width: 95%;
+    height: 90%;
+    display: inline-block;
+    z-index: 999;
+}
 .projects-container{
     display: flex;
     align-items: center;
@@ -153,10 +168,6 @@ nav ul li {
     width: 21em;
     padding: 1em;
     margin: 1em;
-}
-
-.project-container p {
-    padding: .3em;
 }
 
 .projects-title {
@@ -177,9 +188,9 @@ nav ul li {
     color: whitesmoke
 }
 
-.project-link {
-    color: whitesmoke;
-}
+/* projects styling end */
+
+/* contact styling */
 
 .contact {
     background-color: var(--bg-color);
@@ -207,3 +218,17 @@ nav ul li {
 .link:hover{
     color: var(--link-color)
 }
+/* contact styling stop */
+
+/* footer stlying */
+footer {
+    text-align: center;
+    margin: 1px;
+    padding: 10px;
+}
+
+/* footer styling stop */
+
+/* media query */
+
+
