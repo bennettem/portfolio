@@ -231,4 +231,82 @@ footer {
 
 /* media query */
 
+@media screen and (max-width: 720px) {
+    nav{
+        position: relative;
+        padding: 1.5rem 1rem;
+    }
+    nav ul {
+        position: relative;
+        background-color: var(--bg-color);
+        text-align: center;
+    }
+    nav ul li {
+        margin: 8px;
+    }
+    nav h1 {
+        font-size: 20px;
+    }
+    nav a {
+        font-size: 15px;
+    }
+    .hero {
+        margin-top: -4em;
+        flex-direction: column;
+        gap: 0;
+    }
+    .hero img {
+        height: 50%;
+        width: 50%;
+    }
+    .bubble {
+        height: 50%;
+        width: 50%;
+        flex-direction: column;
+    }
+    .about {
+        flex-direction: column;
+    }
+    .about h2{
+        text-align: center;
+    }
+    .about p {
+        text-align: center;
+    }
+    .skills img {
+        width: 25%;
+        height: 25%;
+    }
+    .projects-container {
+        flex-direction: column;
+    }
+}
 
+@media screen and (max-width: 420px) {
+    nav{
+        position: relative;
+        padding: .2rem .01rem;
+    }
+    nav ul {
+        position: relative;
+        background-color: var(--bg-color);
+        text-align: left;
+    }
+    nav ul li {
+        margin: 4px;
+    }
+    nav h1 {
+        font-size: 14.3px;
+        margin-left: 2em;
+    }
+    nav a {
+        font-size: 10px;
+    }
+    .hero {
+        margin-top: .5em;
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+/* END MEDIA */
