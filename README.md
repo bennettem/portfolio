@@ -9,10 +9,8 @@ Website should be responsive to various screen sizes if displayed on different d
 Deployed URL: https://bennettem.github.io/portfolio/
 
 Github Repo URL: https://github.com/bennettem/portfolio
-<<<<<<< HEAD
 
 ## Site 
 
 ![alt text](https://github.com/bennettem/portfolio/blob/main/assets/images/mobile.png)
-=======
->>>>>>> 53e1697 (added new project)
+
