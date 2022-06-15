@@ -14,5 +14,4 @@ Github Repo URL: https://github.com/bennettem/portfolio
 ## Site 
 
 ![alt text](https://github.com/bennettem/portfolio/blob/main/assets/images/mobile.png)
-=======
->>>>>>> 53e1697 (added new project)
+
